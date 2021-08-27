@@ -1,0 +1,36 @@
+
+strong{
+  font:2rem sans-serif;
+  color:rgb(255, 196, 0);
+}
+li{
+  margin-top:1rem;
+  padding:1rem 1rem;
+  border-radius: 0.5rem;
+  background-color: rgb(102, 102, 102);
+  transition:0.3s;
+}
+li:hover{
+  background-color: rgb(0, 128, 115);
+}
+a{
+  color:#1eff00
+}
+button{
+  width:100%;
+  padding:1rem 0;
+  background-color:rgb(128, 128, 128);
+  color:rgb(83, 83, 83);
+  border-radius:0.7rem;
+  border: 0.1rem solid rgb(68, 227, 255);
+	transition: 0.3s; 
+}
+button:hover{
+  background-color: rgb(68, 227, 255);
+  color:black;
+}
+button:active{
+  background-color: rgb(0, 95, 112);
+  color:rgb(0, 119, 119);
+  transition: 0.3s; 
+}
